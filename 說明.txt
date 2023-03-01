@@ -1,0 +1,15 @@
+github model:
+https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet
+
+
+step1:
+	cd到資料夾下
+step2:
+
+	#使用webcam
+	python track.py --source 0 --show-vid
+	#使用影片檔(影片檔也在資料夾目錄下)
+	python track.py --source {影片檔名} --show-vid
+step3:
+	滑鼠左鍵取消追蹤目標
+	滑鼠右鍵追蹤新目標
